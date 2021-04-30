@@ -34,10 +34,4 @@ artifacts:
   base-directory: ./build_output
   discard-paths: no
 
-reports:
-  #${PROJECT}:
-  UdchaloConnector:
-    fileformat: VisualStudioTrx
-    files:
-      - '**/*'
-    base-directory: './testresults'
+
