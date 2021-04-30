@@ -3,7 +3,7 @@ version: 0.2
     
 env:
    variables:
-     PROJECT: AWSElasticBeanstalkCICDApp
+     PROJECT: UdchaloConnector
      DOTNET_CORE_RUNTIME: 3.1
 
 phases:   
@@ -35,8 +35,9 @@ artifacts:
   discard-paths: no
 
 reports:
-  ${PROJECT}:
-    file-format: VisualStudioTrx
+  #${PROJECT}:
+  UdchaloConnector:
+    fileformat: VisualStudioTrx
     files:
       - '**/*'
     base-directory: './testresults'
